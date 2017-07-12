@@ -1,5 +1,5 @@
-import React, { Component,PropTypes } from 'react'
-// import PropTypes from 'prop-types';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 export default class CommentInput extends Component {
     static propTypes = {
         username: PropTypes.any,
@@ -81,4 +81,3 @@ export default class CommentInput extends Component {
     }
 }
 
-export default CommentInput
